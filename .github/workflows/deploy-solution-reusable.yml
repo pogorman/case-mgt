@@ -11,7 +11,7 @@ on:
       solution_name:
         description: 'The solution name.'
         type: string
-        default: ALMLab       
+        default: CaseManagement       
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'        
         type: string
@@ -52,7 +52,6 @@ on:
 jobs:
   convert-to-managed:
     runs-on: windows-latest
-    # or you can say runs-on: ubuntu-latest
     env:
       RUNNER_DEBUG: 1
 
