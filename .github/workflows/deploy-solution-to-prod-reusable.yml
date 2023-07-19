@@ -1,4 +1,4 @@
-name: release-case-mgt-to-prod
+name: deploy-solution-to-prod-reusable
 # Reusable workflow
 # convert solution to managed (using a build PowerPlatform environment for the conversion)
 # upload the solution to the GitHub artifacts and deploy to the PROD environment
