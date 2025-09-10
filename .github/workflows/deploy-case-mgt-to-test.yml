@@ -3,6 +3,13 @@ name: deploy-case-mgt-to-test
 # Release your solution to prod when you create a new release.
 
 on:
+  workflow_dispatch:
+    inputs:
+      # Change this value
+      solution_name:
+        description: 'name of the solution to worked on from Power Platform'
+        required: true
+        default: CaseManagement
   release:
       types: [created]        
 
