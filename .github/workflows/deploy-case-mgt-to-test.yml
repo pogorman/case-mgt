@@ -13,9 +13,9 @@ jobs:
       #You can specify the solution name here
       solution_name: CaseManagement
       #Update your values here
-      BUILD_ENVIRONMENT_URL: 'https://pp-test.crm.dynamics.com/'
-      PRODUCTION_ENVIRONMENT_URL: 'https://pp-prod.crm.dynamics.com/'
-      CLIENT_ID: '102d3a24-49a9-4eda-b441-faba61911029'
-      TENANT_ID: '60d350b4-d6da-4698-a9a1-9b8de00a0b07'     
+      BUILD_ENVIRONMENT_URL: 'https://org2b000359.crm.dynamics.com/'
+      PRODUCTION_ENVIRONMENT_URL: 'https://org0f719ffb.crm.dynamics.com/'
+      CLIENT_ID: '890c94d0-f73b-4318-83d1-cf831ec7f8e1'
+      TENANT_ID: '125ec668-dcca-47ba-9487-0304f441b3f1'     
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
